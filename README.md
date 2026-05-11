@@ -5,9 +5,9 @@
 This checklist summarizes the required outputs for each week of the project.
 
 - [ ] **Week 1 – Planning & Git**
-  - [ ] Choose the project topic
-  - [ ] Create a Gantt chart
-  - [ ] Project manager sets up the Git repository and invites team members
+  - [x] Choose the project topic
+  - [x] Create a Gantt chart
+  - [x] Project manager sets up the Git repository and invites team members
   - [ ] Create a wireframe on paper or in Figma
 
 - [ ] **Week 2 – Semantics & Structure**
