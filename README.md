@@ -10,10 +10,10 @@ This checklist summarizes the required outputs for each week of the project.
   - [x] Project manager sets up the Git repository and invites team members
   - [x] Create a wireframe on paper or in Figma
 
-- [ ] **Week 2 – Semantics & Structure**
-  - [ ] Create all HTML pages
-  - [ ] Define the basic structure (header, footer, navigation)
-  - [ ] Make the first Git push
+- [x] **Week 2 – Semantics & Structure**
+  - [x] Create all HTML pages
+  - [x] Define the basic structure (header, footer, navigation)
+  - [x] Make the first Git push
 
 - [ ] **Week 3 – Bootstrap & Design**
   - [ ] Implement Bootstrap components (grid, navigation, modals, cards)
