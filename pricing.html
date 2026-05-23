@@ -7,21 +7,47 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
-<body>
-    <header>
-        <nav>
-            <div>
-                <img src="assets/images/logo.svg" alt="Logo">
+<body class="white-bg my-3 mx-5">
+<header>
+    <nav class="navbar navbar-expand-lg bg-black rounded-pill px-3">
+        <div class="container-fluid justify-content-center justify-content-lg-between">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="assets/images/logo.svg" alt="Logo" class="logo-size-nav">
+            </a>
+
+            <div class="justify-content-center">
+                <ul class="navbar-nav gap-lg-5 text-center">
+                    <li class="nav-item">
+                        <a class="nav-link text-white space-font" href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white space-font" href="features.html">
+                            Features
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white space-font" href="contact.html">
+                            Contacts
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white space-font" href="pricing.html">
+                            Pricing
+                        </a>
+                    </li>
+                </ul>
             </div>
 
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="features.html">Features</a></li>
-                <li><a href="contact.html">Contacts</a></li>
-                <li><a href="pricing.html">Pricing</a></li>
-            </ul>
-            <button>Try it out</button>
-        </nav>
+            <button class="btn btn-light rounded-pill px-4 py-2">
+                Try it out
+            </button>
+        </div>
+    </nav>
     </header>
 
     <section>

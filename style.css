@@ -1,3 +1,26 @@
-*{
-    background-color: #FFFFFF;
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+
+.white-bg {
+    background-color: #FFF6F0;
+}
+
+.black-bg {
+    background-color: #000000;
+}
+
+.logo-size-nav {
+    width: 30px;
+}
+
+.navbar {
+    min-height: 80px;
+}
+
+.nav-link:hover {
+    opacity: 0.7;
+}
+
+.space-font {
+    font-family: 'Space Grotesk', sans-serif;
 }
