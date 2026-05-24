@@ -24,3 +24,31 @@
 .space-font {
     font-family: 'Space Grotesk', sans-serif;
 }
+
+h1 {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+h2 {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+h3 {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+}
+
+.display-1 {
+    font-weight: 400;
+}
+
+.display-3 {
+    font-weight: 400;
+}
+
+.display-6 {
+    font-weight: 400;
+}
