@@ -18,7 +18,7 @@ This checklist summarizes the required outputs for each week of the project.
 - [ ] **Week 3 – Bootstrap & Design**
   - [ ] Implement Bootstrap components (grid, navigation, modals, cards)
   - [ ] Refine custom CSS styling
-  - [ ] Use Google Fonts for typography
+  - [x] Use Google Fonts for typography
 
 - [ ] **Week 4 – Validation & Presentation**
   - [ ] Test and validate layout in DevTools (mobile version)
