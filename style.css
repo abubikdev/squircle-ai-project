@@ -67,15 +67,20 @@ p {
     color: white;
 }
 
-.bigger-padding {
-    padding-bottom: 350px;
+.bigger-bottom-padding {
+    padding-bottom: 367px;
 }
 
-.index-header-color {
+.index-custom-color {
     background: linear-gradient(180deg, #7383F8 -16.36%, #E2B0FF 2.1%, #9B99F2 36.88%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.contact-contact-color {
+    background: linear-gradient(180deg, #FCBCFF 0%, #C5D8FD 15.87%, #FFF6F0 90.87%);
 }
 
 .foot-divider {
     height: 2px;
     background-color: #C5BAB5;
 }
+
