@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
-<body class="white-bg my-4 mx-5">
-    <header>
+<body class="white-bg">
+    <header class="index-header-color py-4 px-5">
         <nav class="navbar navbar-expand-lg bg-black rounded-pill px-3">
             <div class="container-fluid justify-content-center justify-content-lg-between">
                 <a class="navbar-brand d-flex align-items-center d-none d-lg-block" href="index.html">
@@ -48,12 +48,17 @@
                 </button>
             </div>
         </nav>
-        <div>
-            <h1 class="text-center display-1">Squircle AI</h1>
-
-            <div>
-                <input type="text" id="PromptBox" placeholder="Ask me anything...">
-                <button type="submit">Try it out</button>
+        <div class="container text-center bigger-padding pt-5">
+            <div class="row">
+                <h1 class="p-4 display-1 text-center">Squircle AI</h1>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-7 black-bg p-2 rounded-pill d-flex align-items-center justify-content-between gap-4">
+                    <input type="text" class="form-control bg-transparent border-0 text-light shadow-none ps-4" placeholder="Ask a question">
+                    <button class="btn btn-light rounded-pill text-nowrap"> <!-- text-nowrap is the thing that makes it not to stretch on 2 lines, I love it so much, but I only know it for like a 2 minutes now -->
+                        Try it out
+                    </button>
+                </div>
             </div>
         </div>
     </header>
@@ -67,7 +72,7 @@
                 </p>
             </div>
             <div>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6DMnXhnCWHaroR9SfGcSvOVvIkA_O__jT0Q&s" alt="AI image/video">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6DMnXhnCWHaroR9SfGcSvOVvIkA_O__jT0Q&s" alt="AI image/video"> <!-- it is not worth it -->
             </div>
         </section>
         <section>

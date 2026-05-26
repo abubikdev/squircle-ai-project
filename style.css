@@ -52,3 +52,21 @@ p {
 .display-6 {
     font-weight: 400;
 }
+
+.form-control::placeholder {
+    color: #8b8b8b;
+    opacity: 1;
+}
+
+.form-control:focus {
+    background: transparent;
+    color: white;
+}
+
+.bigger-padding {
+    padding-bottom: 350px;
+}
+
+.index-header-color {
+    background: linear-gradient(180deg, #7383F8 -16.36%, #E2B0FF 2.1%, #9B99F2 36.88%, rgba(255, 255, 255, 0.00) 100%);
+}
