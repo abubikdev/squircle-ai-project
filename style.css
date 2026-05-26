@@ -5,6 +5,10 @@
     background-color: #FFF6F0;
 }
 
+.white-darker-bg {
+    background-color: #E2D9D2;
+}
+
 .black-bg {
     background-color: #000000;
 }
@@ -69,4 +73,9 @@ p {
 
 .index-header-color {
     background: linear-gradient(180deg, #7383F8 -16.36%, #E2B0FF 2.1%, #9B99F2 36.88%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.foot-divider {
+    height: 2px;
+    background-color: #C5BAB5;
 }
