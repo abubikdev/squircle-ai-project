@@ -17,6 +17,10 @@
     background-color: #3E3A38;
 }
 
+.bg-trans {
+    background: linear-gradient(198deg, #B7E5F6 0.39%, #FFF7F0 42.14%);
+}
+
 ::placeholder {
     color: #C5BAB5;
 }
@@ -79,12 +83,20 @@ p {
     padding-bottom: 367px;
 }
 
+.bigger-top-padding {
+    padding-top: 140px;
+}
+
 .index-custom-color {
     background: linear-gradient(180deg, #7383F8 -16.36%, #E2B0FF 2.1%, #9B99F2 36.88%, rgba(255, 255, 255, 0.00) 100%);
 }
 
-.contact-contact-color {
+.contact-custom-color {
     background: linear-gradient(180deg, #FCBCFF 0%, #C5D8FD 15.87%, #ffffff 90.87%);
+}
+
+.prices-custom-color {
+    background: linear-gradient(180deg, #FFCDCE 0%, #FFD4F9 22.53%, #ffffff 40.05%);
 }
 
 .foot-divider {
