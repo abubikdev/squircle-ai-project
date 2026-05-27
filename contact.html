@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
-<body class="white-bg">
+<body class="bg-white">
     <div class="contact-contact-color">
         <header class="py-4 px-5">
             <nav class="navbar navbar-expand-lg bg-black rounded-pill px-3">
@@ -56,45 +56,63 @@
         </header>
         <main class="py-4 px-5">
             <section>
-                <div>
-                    <h2 class="display-6">Via Message</h2>
+                <div class="row">
+                    <div class="col-md-7">
+                        <h2 class="display-6">Via Message</h2>
 
-                    <form>
-                        <div>
-                            <label>First Name
-                                <input type="text" placeholder="First name">
-                            </label>
-                        </div>
+                        <form>
+                            <div class="col d-grid gap-0 row-gap-3">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label class="fs-4 w-100">First Name
+                                            <input type="text"
+                                                   class="bg-white rounded-pill form-control contact-border shadow-none ps-3"
+                                                   placeholder="First Name">
+                                        </label>
+                                    </div>
 
-                        <div>
-                            <label>Last Name
-                                <input type="text" placeholder="Last name">
-                            </label>
-                        </div>
+                                    <div class="col-md-6">
+                                        <label class="fs-4 w-100">Last Name
+                                            <input type="text"
+                                                   class="bg-white rounded-pill form-control contact-border shadow-none ps-3"
+                                                   placeholder="Last Name">
+                                        </label>
+                                    </div>
+                                </div>
 
-                        <div>
-                            <label>Email
-                                <input type="email" placeholder="Email address">
-                            </label>
-                        </div>
+                                <div class="row">
+                                    <label class="fs-4">Email
+                                        <input type="text"
+                                               class="bg-white rounded-pill form-control contact-border shadow-none ps-3"
+                                               placeholder="Email Address">
+                                    </label>
+                                </div>
 
-                        <div>
-                            <label>Message
-                                <textarea placeholder="Message"></textarea>
-                            </label>
-                        </div>
+                                <div class="row">
+                                    <label class="fs-4">Message
+                                        <textarea
+                                                class="bg-white text-dark rounded-5 form-control contact-border shadow-none ps-3"
+                                                placeholder="Message"></textarea>
+                                    </label>
+                                </div>
 
-                        <button type="submit">Submit</button>
-                    </form>
-                </div>
-                <div>
-                    <ul>
-                        <li>Abandon all hope ye who enter here</li>
-                        <li>AI Automation</li>
-                        <li>Smart Integrations</li>
-                        <li>Fast Delivery</li>
-                        <li>24/7 Support</li>
-                    </ul>
+                                <div class="row px-3 justify-content-center d-flex">
+                                    <button class="bg-brown-ish fs-4 text-light rounded-pill btn btn-light border border-0"
+                                            type="submit">Submit
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <ul>
+                            <li>Abandon all hope ye who enter here</li>
+                            <li>AI Automation</li>
+                            <li>Smart Integrations</li>
+                            <li>Fast Delivery</li>
+                            <li>24/7 Support</li>
+                        </ul>
+                    </div>
                 </div>
             </section>
             <section>
@@ -124,8 +142,8 @@
                     </div>
                 </div>
 
-                <div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2605.9649779399215!2d17.661083511998573!3d49.22019127505819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4713734e41a9d037%3A0x38e92275deaebf4b!2zT3JiaXMsIE1hdGXFmXNrw6EgxaFrb2xhLCBaw6FrbGFkbsOtIMWha29sYSBhIFN0xZllZG7DrSDFoWtvbGEsIHMuci5vLg!5e0!3m2!1scs!2scz!4v1778964348128!5m2!1scs!2scz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="ratio ratio-1x1">
+                    <iframe content="width=device-width, initial-scale=1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2605.9649779399215!2d17.661083511998573!3d49.22019127505819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4713734e41a9d037%3A0x38e92275deaebf4b!2zT3JiaXMsIE1hdGXFmXNrw6EgxaFrb2xhLCBaw6FrbGFkbsOtIMWha29sYSBhIFN0xZllZG7DrSDFoWtvbGEsIHMuci5vLg!5e0!3m2!1scs!2scz!4v1778964348128!5m2!1scs!2scz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </section>
         </main>

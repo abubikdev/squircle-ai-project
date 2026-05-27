@@ -1,16 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
 
-.white-bg {
+.bg-white {
     background-color: #FFF6F0;
 }
 
-.white-darker-bg {
+.bg-white-darker {
     background-color: #E2D9D2;
 }
 
-.black-bg {
+.bg-black {
     background-color: #000000;
+}
+
+.bg-brown-ish {
+    background-color: #3E3A38;
+}
+
+::placeholder {
+    color: #C5BAB5;
 }
 
 .logo-size-nav {
@@ -76,7 +84,7 @@ p {
 }
 
 .contact-contact-color {
-    background: linear-gradient(180deg, #FCBCFF 0%, #C5D8FD 15.87%, #FFF6F0 90.87%);
+    background: linear-gradient(180deg, #FCBCFF 0%, #C5D8FD 15.87%, #ffffff 90.87%);
 }
 
 .foot-divider {
@@ -86,4 +94,8 @@ p {
 
 .card-size {
     width: 22em;
+}
+
+.contact-border {
+    border: 1px solid #3E3A38;
 }
