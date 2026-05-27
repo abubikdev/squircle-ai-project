@@ -111,3 +111,7 @@ p {
 .contact-border {
     border: 1px solid #3E3A38;
 }
+
+.pin-image {
+    width: 10%;
+}
