@@ -18,7 +18,7 @@
 }
 
 .bg-trans {
-    background: linear-gradient(198deg, #B7E5F6 0.39%, #FFF7F0 42.14%);
+    background: linear-gradient(198deg, #B7E5F6 0.39%, #f8f8f8 42.14%);
 }
 
 ::placeholder {
@@ -124,4 +124,31 @@ p {
 .mail-image {
     width: 57px;
     margin-left: 10px;
+}
+
+.pricing-slider {
+    display: flex;
+    gap: 24px;
+
+    overflow-x: auto;            /* this is the part that does the scroll thing, in another words the thing ive been looking for for the past 1 and a half hour, and scroll smooth is just what i found is commonly used with it */
+    scroll-behavior: smooth;
+
+    padding-bottom: 20px;
+}
+
+.pricing-slider::-webkit-scrollbar {
+    height: 10px;
+}
+
+.pricing-slider::-webkit-scrollbar-thumb {
+    background: #b6aaa3;
+    border-radius: 20px;
+}
+
+.pricing-card {
+    min-width: 380px;
+    max-width: 380px;
+    min-height: 620px;
+
+    flex-shrink: 0;
 }
