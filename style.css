@@ -113,5 +113,15 @@ p {
 }
 
 .pin-image {
-    width: 10%;
+    width: 75px;
+}
+
+.phone-image {
+    width: 50px;
+    margin-left: 10px;
+}
+
+.mail-image {
+    width: 57px;
+    margin-left: 10px;
 }
