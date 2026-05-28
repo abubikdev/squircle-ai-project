@@ -39,7 +39,7 @@
 					</li>
 
 					<li class="nav-item">
-						<a class="nav-link text-white space-font" href="pricing.html">
+						<a class="nav-link text-white space-font text-decoration-underline" href="pricing.html">
 							Pricing
 						</a>
 					</li>
@@ -51,86 +51,112 @@
 			</button>
 		</div>
 	</nav>
-	<div class="bigger-top-padding bigger-bottom-padding">
-		<h1 class="display-1 text-center">Pricing</h1>
+	<div class="bigger-top-padding bigger-bottom-padding text-center m-4">
+		<h1 class="display-1">Pricing</h1>
 
-		<div>
-			<button>Monthly</button>
-			<button>Yearly</button>
-		</div>
+        <div class="btn-group bg-black rounded-pill text-center" role="group" aria-label="Basic radio toggle button group"> <!-- nejdou nastavit jiné barvy tak to nechávám tak sry -->
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+            <label class="btn btn-outline-primary rounded-start-pill fs-5 py-2 px-4 w-50 space-font text-center" for="btnradio1">Monthly</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+            <label class="btn btn-outline-primary rounded-end-pill fs-5 py-2 px-4 w-50 space-font text-center" for="btnradio2">Yearly</label>
+        </div>
 	</div>
 </header>
 <main class="my-3 mx-5">
-	<section>
-		<div>
-			<h2 class="display-6">Free</h2>
-			<p class="fs-6">0 Kč</p>
-			<button>Subscribe</button>
-			<ul>
-				<li>Basic access to AI tools</li>
-			</ul>
+	<section class="pricing-slider pb-4">
+		<div class="card pricing-card bg-white contact-border rounded-5 p-4">
+			<div class="card-body d-flex flex-column">
+				<h2 class="display-6 text-center">Free</h2>
+				<p class="fs-3 text-center">0 Kč</p>
+
+				<button class="btn btn-dark rounded-pill py-3 px-4 mt-3">Subscribe</button>
+
+				<ul class="mt-5 fs-5">
+					<li>Basic access to AI tools</li>
+				</ul>
+			</div>
 		</div>
 
-		<div>
-			<p class="fs-6">Popular</p>
-			<h2 class="display-6">Squircle Lite</h2>
-			<p class="fs-6">200 Kč</p>
-			<button>Subscribe</button>
-			<ul>
-				<li>Faster response speeds</li>
-				<li>Access to additional features</li>
-			</ul>
+		<div class="card pricing-card bg-trans border-primary rounded-5 p-4">
+			<div class="card-body d-flex flex-column">
+				<h2 class="display-6 text-center text-primary">Squircle Lite</h2>
+				<p class="fs-3 text-center">200 Kč</p>
+
+				<button class="btn btn-dark rounded-pill py-3 px-4 mt-3">Subscribe</button>
+
+				<ul class="mt-5 fs-5">
+					<li>Faster response speeds</li>
+					<li>Access to additional features</li>
+				</ul>
+				<p class="text-center bg-primary text-white rounded-pill px-3 py-1 w-50 mx-auto mt-auto">POPULAR</p>
+			</div>
 		</div>
 
-		<div>
-			<h2 class="display-6">Squircle Plus</h2>
-			<p class="fs-6">500 Kč</p>
-			<button>Subscribe</button>
-			<ul>
-				<li>Priority customer support</li>
-				<li>Early access to updates</li>
-				<li>Expanded AI tool access</li>
-			</ul>
+		<div class="card pricing-card bg-white contact-border rounded-5 p-4">
+			<div class="card-body d-flex flex-column">
+				<h2 class="display-6 text-center">Squircle Plus</h2>
+				<p class="fs-3 text-center">500 Kč</p>
+
+				<button class="btn btn-dark rounded-pill py-3 px-4 mt-3">Subscribe</button>
+
+				<ul class="mt-5 fs-5">
+					<li>Priority customer support</li>
+					<li>Early access to updates</li>
+					<li>Expanded AI tool access</li>
+				</ul>
+			</div>
 		</div>
 
-		<div>
-			<h2 class="display-6">Squircle Pro</h2>
-			<p class="fs-6">2800 Kč</p>
-			<button>Subscribe</button>
-			<ul>
-				<li>Advanced customization options</li>
-				<li>Faster processing performance</li>
-				<li>Exclusive member content</li>
-				<li>Access to beta features</li>
-			</ul>
+		<div class="card pricing-card bg-white contact-border rounded-5 p-4">
+			<div class="card-body d-flex flex-column">
+				<h2 class="display-6 text-center">Squircle Pro</h2>
+				<p class="fs-3 text-center">2800 Kč</p>
+
+				<button class="btn btn-dark rounded-pill py-3 px-4 mt-3">Subscribe</button>
+
+				<ul class="mt-5 fs-5">
+					<li>Advanced customization options</li>
+					<li>Faster processing performance</li>
+					<li>Exclusive member content</li>
+					<li>Access to beta features</li>
+				</ul>
+			</div>
 		</div>
 
-		<div>
-			<h2 class="display-6">Squircle Plus</h2>
-			<p class="fs-6">5900 Kč</p>
-			<button>Subscribe</button>
-			<ul>
-				<li>Unlimited access to all AI tools</li>
-				<li>Maximum processing speed</li>
-				<li>Access to experimental features</li>
-				<li>Advanced customization options</li>
-				<li>24/7 priority support</li>
-				<li>Exclusive beta testing opportunities</li>
-			</ul>
+		<div class="card pricing-card bg-white contact-border rounded-5 p-4">
+			<div class="card-body d-flex flex-column">
+				<h2 class="display-6 text-center">Squircle Ultra</h2>
+				<p class="fs-3 text-center">5900 Kč</p>
+
+				<button class="btn btn-dark rounded-pill py-3 px-4 mt-3">Subscribe</button>
+
+				<ul class="mt-5 fs-5">
+					<li>Unlimited access to all AI tools</li>
+					<li>Maximum processing speed</li>
+					<li>Access to experimental features</li>
+					<li>Advanced customization options</li>
+					<li>24/7 priority support</li>
+					<li>Exclusive beta testing opportunities</li>
+				</ul>
+			</div>
 		</div>
 	</section>
 </main>
-<footer>
-	<div>
-		<p class="fs-6">hq@yourdomain.com</p>
-		<p class="fs-6">+420 676 676 420</p>
-	</div>
+<div class="foot-divider m-5"></div>
+<footer class="mx-5">
+    <div class="row">
+        <div class="col">
+            <p class="fs-6">hq@squircle.ai</p>
+            <p class="fs-6">+420 676 676 420</p>
+        </div>
 
-	<div>
-		<p class="fs-6">308 Negra Arroyo Lane</p>
-		<p class="fs-6">Albuquerque, New Mexico</p>
-		<p class="fs-6">87104</p>
-	</div>
+        <div class="col">
+            <p class="fs-6">1 Apple Park Way</p>
+            <p class="fs-6">Cupertino, CA 95014</p>
+            <p class="fs-6">United States</p>
+        </div>
+    </div>
 </footer>
 </body>
 </html>
