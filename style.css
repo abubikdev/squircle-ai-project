@@ -113,16 +113,16 @@ p {
 }
 
 .pin-image {
-    width: 75px;
+    width: 50px;
 }
 
 .phone-image {
-    width: 50px;
+    width: 35px;
     margin-left: 10px;
 }
 
 .mail-image {
-    width: 57px;
+    width: 35px;
     margin-left: 10px;
 }
 
@@ -151,4 +151,9 @@ p {
     min-height: 620px;
 
     flex-shrink: 0;
+}
+
+.display-5 {
+    font-size: 24px;
+    font-weight: 400;
 }
