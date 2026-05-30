@@ -1,0 +1,27 @@
+<svg width="300" height="325" viewBox="0 0 300 325" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_n_286_29)">
+<path d="M75.7723 8.59091C89.8556 -1.25468 108.103 -2.53265 123.904 4.21726C164.12 21.3972 204.674 32.9993 244.413 38.6143C279.718 43.6027 306.194 81.5163 298.735 116.401C290.338 155.667 287.28 197.759 289.574 241.451C290.474 258.617 283 275.321 268.916 285.167C261.039 290.674 252.67 296.524 246.575 300.785C240.478 305.048 232.107 310.9 224.227 316.409C210.144 326.255 191.896 327.533 176.095 320.783C135.88 303.603 95.3262 292.001 55.5881 286.386C20.283 281.397 -6.1942 243.482 1.26527 208.597C9.66138 169.332 12.719 127.241 10.4258 83.5496C9.52483 66.3834 16.9997 49.6788 31.083 39.8332C38.9629 34.3243 47.3341 28.472 53.431 24.2097C59.5262 19.9485 67.8946 14.0981 75.7723 8.59091Z" fill="url(#paint0_radial_286_29)"/>
+</g>
+<defs>
+<filter id="filter0_n_286_29" x="0" y="0" width="300" height="325" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feTurbulence type="fractalNoise" baseFrequency="2.4360017776489258 2.4360017776489258" stitchTiles="stitch" numOctaves="3" result="noise" seed="9576" />
+<feColorMatrix in="noise" type="luminanceToAlpha" result="alphaNoise" />
+<feComponentTransfer in="alphaNoise" result="coloredNoise1">
+<feFuncA type="discrete" tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
+</feComponentTransfer>
+<feComposite operator="in" in2="shape" in="coloredNoise1" result="noise1Clipped" />
+<feFlood flood-color="rgba(0, 0, 0, 0.1)" result="color1Flood" />
+<feComposite operator="in" in2="noise1Clipped" in="color1Flood" result="color1" />
+<feMerge result="effect1_noise_286_29">
+<feMergeNode in="shape" />
+<feMergeNode in="color1" />
+</feMerge>
+</filter>
+<radialGradient id="paint0_radial_286_29" cx="0" cy="0" r="1" gradientTransform="matrix(307.574 102.053 -163.818 332.667 -5.70975 162.363)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B7ACFF"/>
+<stop offset="1" stop-color="#687EFF"/>
+</radialGradient>
+</defs>
+</svg>
