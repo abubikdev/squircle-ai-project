@@ -15,12 +15,12 @@ This checklist summarizes the required outputs for each week of the project.
   - [x] Define the basic structure (header, footer, navigation)
   - [x] Make the first Git push
 
-- [ ] **Week 3 – Bootstrap & Design**
-  - [ ] Implement Bootstrap components (grid, navigation, modals, cards)
-  - [ ] Refine custom CSS styling
+- [x] **Week 3 – Bootstrap & Design**
+  - [x] Implement Bootstrap components (grid, navigation, modals, cards)
+  - [x] Refine custom CSS styling
   - [x] Use Google Fonts for typography
 
 - [ ] **Week 4 – Validation & Presentation**
   - [ ] Test and validate layout in DevTools (mobile version)
-  - [ ] Fix any issues found
+  - [x] Fix any issues found
   - [ ] Document ORBIS and prepare the presentation
