@@ -41,15 +41,7 @@
     font-family: 'Space Grotesk', sans-serif;
 }
 
-h1 {
-    font-family: 'Space Grotesk', sans-serif;
-}
-
-h2 {
-    font-family: 'Space Grotesk', sans-serif;
-}
-
-h3 {
+h1, h2, h3 {
     font-family: 'Space Grotesk', sans-serif;
 }
 
@@ -63,6 +55,14 @@ p {
 
 .display-3 {
     font-weight: 400;
+}
+
+.btn-text-size {
+    font-size: xx-large;
+}
+
+.btn-padding {
+    padding-bottom: 100px;
 }
 
 .display-6 {
@@ -160,4 +160,40 @@ p {
 .display-5 {
     font-size: 24px;
     font-weight: 400;
+}
+
+.pricing-toggle-btn {
+    border: none;
+    transition: all 0.2s ease;
+}
+
+.pricing-toggle-left {
+    background-color: #111111;
+    color: white;
+}
+
+.pricing-toggle-right {
+    background-color: #111111;
+    color: white;
+}
+
+.btn.pricing-toggle-btn,
+.btn.pricing-toggle-btn:hover,
+.btn.pricing-toggle-btn:focus {
+    color: white !important;
+}
+
+#btnradio1:checked + .pricing-toggle-left:hover,
+#btnradio2:checked + .pricing-toggle-right:hover {
+    color: black;
+}
+
+#btnradio1:checked + .pricing-toggle-left {
+    background-color: #8ECCFF;
+    color: black !important;
+}
+
+#btnradio2:checked + .pricing-toggle-right {
+    background-color: #8ECCFF;
+    color: black !important;
 }
