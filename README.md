@@ -20,7 +20,7 @@ This checklist summarizes the required outputs for each week of the project.
   - [x] Refine custom CSS styling
   - [x] Use Google Fonts for typography
 
-- [ ] **Week 4 – Validation & Presentation**
-  - [ ] Test and validate layout in DevTools (mobile version)
+- [x] **Week 4 – Validation & Presentation**
+  - [x] Test and validate layout in DevTools (mobile version)
   - [x] Fix any issues found
   - [ ] Document ORBIS and prepare the presentation
