@@ -23,4 +23,4 @@ This checklist summarizes the required outputs for each week of the project.
 - [x] **Week 4 – Validation & Presentation**
   - [x] Test and validate layout in DevTools (mobile version)
   - [x] Fix any issues found
-  - [ ] Document ORBIS and prepare the presentation
+  - [x] Document ORBIS and prepare the presentation
